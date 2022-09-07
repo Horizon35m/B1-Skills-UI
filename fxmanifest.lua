@@ -12,5 +12,4 @@ ui_page {
 
 files {
     "html/*.*"
-    "html/assets/*.svg"
 }

@@ -19,9 +19,9 @@ end)
 
 function SetDisplay(bool)
     display = bool
-    SetNUIFocus(bool,bool)
+    SetNuiFocus(bool, bool)
     SendNUIMessage({
-        type = "ui"
+        type = "ui",
         status = bool,
     })
 end
